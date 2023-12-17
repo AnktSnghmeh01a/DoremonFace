@@ -1,0 +1,213 @@
+
+/* CSS RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+  position: relative;
+}
+
+.head{
+  height: 25em;
+  width: 24em;
+  background-color: #0000ffd7;
+  border-top-left-radius: 15em;
+  border-top-right-radius: 15em;
+  border-bottom-left-radius: 14em;
+  border-bottom-right-radius: 14em;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ box-shadow:inset 2px 8px 10px blue;
+}
+
+.inner-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ height: 20em;
+ width: 22em;
+ background-color: #f0f8ff;
+ border-top-left-radius: 16em;
+ border-top-right-radius: 16em;
+ border-bottom-left-radius: 18em;
+ border-bottom-right-radius: 18em;
+ position: absolute;
+ top: 20%; 
+ box-shadow: inset 2px 5px 15px black;
+}
+
+.eyes{
+  width: 22em;
+  height: 5em;
+  /* border: 1px solid red; */
+  position: absolute;
+ z-index: 200;
+  top: 7%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.left-eye{
+  height: 5em;
+  width: 4em;
+  background-color:#f0f8ff;
+  border-radius: 50%;
+  box-shadow: inset 2px 4px 10px black;
+}
+.left-eye-lid
+{
+  height: 2.5em;
+  width: 1.7em;
+ background-color: #000000;
+ border-radius: 50%;
+ position: absolute;
+ top: 16%;
+ left: 41%;
+}
+.right-eye{
+  height: 5em;
+  width: 4em;
+  background-color:#f0f8ff;
+  border-radius: 50%;
+  box-shadow: inset 2px 4px 10px black;
+
+}
+
+.right-eye-lid
+{
+ height: 2.5em;
+ width: 1.7em;
+ background-color: #000000;
+ border-radius: 50%;
+ position: absolute;
+ top: 15%;
+ left: 51.6%;
+}
+
+
+.nose{
+  height: 3em;
+  width: 3em;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  top: 5%;
+  box-shadow: inset 2px 3px 7px black;
+}
+
+.nose-to-mouth{
+  height: 12.4em;
+  width: 1.4px;
+  background-color: #000000;
+  position: absolute;
+  top: 20%;
+}
+
+.mouth{
+  height: 15em;
+  width: 18em;
+  /* background-color: red; */
+  border-bottom: 2px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 8%;
+}
+
+/* hairs */
+.hairs{
+  display: flex;
+  width: 20em;
+  height: 6em;
+  /* border: 1px solid red; */
+  position: absolute;
+}
+
+.left-hairs{
+  display: flex;
+  flex-direction: column;
+}
+
+.first-left-hair{
+  height: 1.4px;
+  background-color: #000000;
+  width: 7em;
+  transform: rotate(20deg);
+  position: absolute;
+  left: 13%;
+}
+
+.second-left-hair{
+  height: 1.4px;
+  background-color: #000000;
+  width: 7em;
+  /* transform: rotate(30deg); */
+  position: absolute;
+  left: 13%;
+  top: 36%;
+}
+
+.third-left-hair{
+  height: 1.4px;
+  background-color: #000000;
+  width: 7em;
+  transform: rotate(-20deg);
+  position: absolute;
+  left: 13%;
+  top: 70%;
+}
+
+/* creating the right hairs */
+
+
+.right-hairs{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.first-right-hair{
+  height: 1.4px;
+  background-color: #000000;
+  width: 7em;
+  transform: rotate(-20deg);
+  position: absolute;
+  left: 52%;
+}
+
+.second-right-hair{
+  height: 1.4px;
+  background-color: #000000;
+  width: 7em;
+  /* transform: rotate(30deg); */
+  position: absolute;
+  left: 52%;
+  top: 36%;
+}
+
+.third-right-hair{
+  height: 1.4px;
+  background-color: #000000;
+  width: 7em;
+  transform: rotate(20deg);
+  position: absolute;
+  left: 52%;
+  top: 70%;
+}
+
+
+
+
+
